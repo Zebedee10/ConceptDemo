@@ -1,0 +1,10 @@
+﻿Pattern ID,Pattern Name,Strategic Technology,Description
+PAT-001,API Integration Pattern,Tech001,Standard pattern for synchronous API-based integration between managed services.
+PAT-002,Event-Driven Integration Pattern,Tech001,Standard pattern for asynchronous event publication and consumption.
+PAT-003,Managed Database Pattern,Tech003,Standard deployment pattern for managed relational database services.
+PAT-004,Secure SaaS Integration Pattern,Tech004,Standard pattern for integrating enterprise services with approved SaaS platforms.
+PAT-005,Identity Federation Pattern,Tech005,Standard identity federation approach using approved enterprise identity services.
+PAT-006,Cloud Hosting Pattern,Tech006,Standard hosting pattern for workloads deployed to the strategic cloud platform.
+PAT-007,Data Ingestion Pattern,Tech008,Approved pattern for batch and streaming ingestion into the enterprise data platform.
+PAT-008,Analytics Workspace Pattern,Tech008,Standard analytics workspace configuration for governed analytical workloads.
+PAT-009,Observability Pattern,Tech015,"Standard telemetry, logging and monitoring pattern for managed applications."

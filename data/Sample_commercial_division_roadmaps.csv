@@ -1,0 +1,24 @@
+﻿Contract ID,Division,Roadmap Status,Roadmap Summary,Target Exit Date
+CTR-001,Division A,Confirmed,Continue use of the integration platform through 2029 to support the Claims Modernisation programme.,2029-12-31
+CTR-001,Division B,Roadmap Required,,
+CTR-001,Division C,Roadmap Required,,
+CTR-002,Division B,Confirmed,Remaining ETL workloads are planned to migrate to the strategic data platform by Q4 2027.,2027-12-31
+CTR-003,Division A,Confirmed,Continue adoption of the strategic identity service across customer-facing applications.,
+CTR-003,Division C,Roadmap Required,,
+CTR-004,Division A,Confirmed,Migrate remaining applications to the strategic observability service during 2027.,2027-12-31
+CTR-004,Division B,Roadmap Required,,
+CTR-004,Division C,Confirmed,Telemetry migration planned to complete by Q1 2028.,2028-03-31
+CTR-005,Division A,Roadmap Required,,
+CTR-006,Division B,Confirmed,Specialist analytics capability remains required until enterprise analytics functionality is expanded.,2028-06-30
+CTR-007,Division C,Roadmap Required,,
+CTR-008,Enterprise,Confirmed,Strategic hosting platform with continued enterprise demand.,
+CTR-008,Division A,Confirmed,Core workloads expected to remain on the platform for the medium term.,
+CTR-008,Division B,Roadmap Required,,
+CTR-008,Division C,Confirmed,Platform remains part of the target hosting strategy.,
+CTR-009,Division A,Confirmed,Complete migration from the legacy queue by the end of 2027.,2027-12-31
+CTR-009,Division B,Roadmap Required,,
+CTR-010,Division C,Roadmap Required,,
+CTR-011,Division A,Confirmed,Archive must remain available until statutory retention obligations expire.,2029-03-31
+CTR-011,Division C,Confirmed,No active workloads remain; archive access required through retention period.,2029-03-31
+CTR-012,Division A,Confirmed,Continue use of the SaaS connector; vendor authentication exception reviewed annually.,
+CTR-012,Division C,Roadmap Required,,

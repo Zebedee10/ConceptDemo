@@ -1,0 +1,19 @@
+﻿ADR ID,Title,Deciding Authority,Status,Decision Date,Summary
+ADR-001,Retain LegacyTech-A during claims migration,Enterprise Decision,Approved,2026-04-15,Allow LegacyTech-A for existing claims workloads until migration completes.
+ADR-002,Permit VendorTool-B for external service integration,Division A,Approved,2026-05-20,Use VendorTool-B where the external service requires its proprietary integration component.
+ADR-003,Use OpenSource-C within existing platform product,Division B,Proposed,2026-08-11,Permit OpenSource-C temporarily while replacement options are assessed.
+ADR-004,Retain LegacyDB-X for regulatory archive,Enterprise Decision,Approved,2026-03-08,Maintain LegacyDB-X as read-only storage for retained regulatory records.
+ADR-005,Use VendorDB-Y for finance packaged application,Division C,Approved,2026-06-11,Permit the vendor-mandated database for the named finance application.
+ADR-006,Retire LegacyQueue-Z after integration migration,Division A,Superseded,2025-07-01,Temporary use approved during migration; decision superseded after platform exit.
+ADR-007,Adopt SpecialistAnalytics-A for risk analytics,Enterprise Decision,Approved,2026-02-28,Permit specialist analytics capability until equivalent strategic functionality is available.
+ADR-008,Continue LegacyETL-B during data platform migration,Division B,Approved,2026-01-19,Allow existing ETL jobs to continue while upstream platform migration completes.
+ADR-009,Use embedded VendorAI-C capability,Enterprise Decision,Proposed,2026-09-02,Decision under review subject to AI governance and supplier assurance.
+ADR-010,Retain LegacyIAM-A for non-migrated applications,Division C,Approved,2026-05-05,Allow legacy identity integration until applications support the strategic identity pattern.
+ADR-011,Accept VendorAuth-B within SaaS boundary,Division A,Approved,2026-06-23,Permit vendor authentication component within the externally managed SaaS boundary.
+ADR-012,Retain LegacyHosting-A for hardware-integrated workload,Enterprise Decision,Approved,2026-04-30,Allow existing hosting platform until specialist hardware dependency is removed.
+ADR-013,Assess EdgePlatform-B for low-latency workloads,Division B,Proposed,2026-08-27,Evaluate specialist edge platform where current strategic hosting cannot meet latency needs.
+ADR-014,Continue LegacyMonitor-A during observability migration,Division C,Approved,2026-03-17,Allow existing monitoring until dependent applications complete telemetry remediation.
+ADR-015,Standardise API gateway configuration pattern,Enterprise Decision,Approved,2026-07-09,Adopt a common API gateway configuration for enterprise-managed APIs.
+ADR-016,Adopt division-specific data retention implementation,Division A,Approved,2026-07-21,Apply the enterprise retention principle using the approved Division A implementation.
+ADR-017,Adopt shared event schema for customer events,Division B,Approved,2026-08-05,Use the shared enterprise event schema for customer-domain integrations.
+ADR-018,Defer migration of reporting workload,Division C,Proposed,2026-09-10,Defer reporting migration until the replacement analytics service is available.

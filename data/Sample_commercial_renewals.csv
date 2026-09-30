@@ -1,0 +1,13 @@
+﻿Contract ID,Supplier,Contract Name,Renewal Date,Technologies,Consuming Divisions,Roadmap Status,Roadmap Summary,Target Exit Date,Indicative Renewal Guidance
+CTR-001,Northstar Software,Enterprise Integration Platform,2026-11-30,Tech001; Tech003,Division A; Division B; Division C,Confirmed,Strategic platform retained for the medium term; capacity expected to grow.,,36 months
+CTR-002,DataWorks Ltd,Legacy ETL Support,2026-12-15,Tech009,Division B,Confirmed,Migrate remaining workloads to the strategic data platform by Q4 2027.,2027-12-31,12 months
+CTR-003,IdentityCloud,Identity Federation Service,2027-01-31,Tech005,Division A; Division C,Confirmed,Strategic identity service; continued enterprise adoption planned.,,36 months
+CTR-004,MonitorCo,Legacy Monitoring Suite,2027-02-28,Tech015,Division A; Division B; Division C,Confirmed,Applications are moving to the strategic observability service during 2027.,2027-12-31,12 months
+CTR-005,Vendor Systems,Specialist Claims Tool,2027-03-31,LegacyTech-A,Division A,Roadmap Required,,,Confirm roadmap
+CTR-006,Analytics Partners,Risk Analytics Engine,2027-04-30,Tech008; SpecialistAnalytics-A,Division B,Confirmed,Specialist capability remains required while strategic analytics capability is expanded; review again in 2028.,2028-06-30,24 months
+CTR-007,FinanceSoft,Finance Database Support,2027-05-31,VendorDB-Y,Division C,Roadmap Required,,,Confirm roadmap
+CTR-008,CloudHost Services,Managed Hosting Agreement,2027-06-30,Tech006,Enterprise; Division A; Division B; Division C,Confirmed,Strategic hosting platform with long-term enterprise demand.,,36 months
+CTR-009,QueueTech,Legacy Messaging Support,2027-07-31,LegacyQueue-Z,Division A; Division B,Confirmed,Technology expected to exit following completion of the integration simplification programme.,2028-01-31,6-12 months
+CTR-010,Workplace Edge Ltd,Edge Compute Support,2027-09-30,EdgePlatform-B,Division C,Roadmap Required,,,Confirm roadmap
+CTR-011,Archive Solutions,Regulatory Archive Platform,2027-10-31,LegacyDB-X,Division A; Division C,Confirmed,Read-only regulatory archive retained until statutory retention obligations expire.,2029-03-31,24 months
+CTR-012,SaaS Connect,Secure SaaS Connector,2027-12-31,Tech004; VendorAuth-B,Division A; Division C,Confirmed,Strategic SaaS integration approach remains in use; vendor authentication exception reviewed annually.,,12 months

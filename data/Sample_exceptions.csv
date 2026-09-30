@@ -1,0 +1,15 @@
+﻿Exception ID,Level 1,Level 2,Level 3,Strategic Technology,Exception Technology,Status,ADR ID
+EXC-001,Tax_L1,Tax_L1.1,Tax_L1.1.1,Tech001,LegacyTech-A,Active,ADR-001
+EXC-002,Tax_L1,Tax_L1.2,Tax_L1.2.1,Tech003,VendorTool-B,Active,ADR-002
+EXC-003,Tax_L1,Tax_L1.2,Tax_L1.2.2,Tech004,OpenSource-C,Under Review,ADR-003
+EXC-004,Tax_L2,Tax_L2.1,Tax_L2.1.1,Tech005,LegacyDB-X,Active,ADR-004
+EXC-005,Tax_L2,Tax_L2.2,Tax_L2.2.1,Tech006,VendorDB-Y,Active,ADR-005
+EXC-006,Tax_L2,Tax_L2.2,Tax_L2.2.2,Tech007,LegacyQueue-Z,Expired,ADR-006
+EXC-007,Tax_L3,Tax_L3.1,Tax_L3.1.1,Tech008,SpecialistAnalytics-A,Active,ADR-007
+EXC-008,Tax_L3,Tax_L3.1,Tax_L3.1.2,Tech009,LegacyETL-B,Active,ADR-008
+EXC-009,Tax_L3,Tax_L3.2,Tax_L3.2.1,Tech010,VendorAI-C,Under Review,ADR-009
+EXC-010,Tax_L4,Tax_L4.1,Tax_L4.1.1,Tech011,LegacyIAM-A,Active,ADR-010
+EXC-011,Tax_L4,Tax_L4.2,Tax_L4.2.1,Tech012,VendorAuth-B,Active,ADR-011
+EXC-012,Tax_L5,Tax_L5.1,Tax_L5.1.1,Tech013,LegacyHosting-A,Active,ADR-012
+EXC-013,Tax_L5,Tax_L5.2,Tax_L5.2.1,Tech014,EdgePlatform-B,Under Review,ADR-013
+EXC-014,Tax_L6,Tax_L6.1,Tax_L6.1.1,Tech015,LegacyMonitor-A,Active,ADR-014

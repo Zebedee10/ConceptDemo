@@ -1,0 +1,17 @@
+﻿Portfolio,Initiative ID,Initiative Name,Status,Business Area,Target Date
+Enterprise Change Portfolio,ECP-001,Enterprise Data Platform,In Delivery,Enterprise Data,2027-03-31
+Enterprise Change Portfolio,ECP-002,Identity Modernisation,In Delivery,Cyber Security,2027-06-30
+Enterprise Change Portfolio,ECP-003,Enterprise AI Platform,Mobilising,Technology,2027-09-30
+Enterprise Change Portfolio,ECP-004,Observability Transformation,Planned,Technology Operations,2028-01-31
+Division A,DA-001,Claims Modernisation,In Delivery,Operations,2027-02-28
+Division A,DA-002,Customer Service Transformation,In Delivery,Customer Services,2027-05-31
+Division A,DA-003,Digital Document Processing,Mobilising,Operations,2027-08-31
+Division A,DA-004,Legacy Platform Exit,Planned,Technology,2028-03-31
+Division B,DB-001,Risk Analytics Transformation,In Delivery,Risk,2027-04-30
+Division B,DB-002,Data Platform Migration,In Delivery,Data & Analytics,2027-07-31
+Division B,DB-003,Customer Event Integration,Mobilising,Digital,2027-10-31
+Division B,DB-004,Reporting Modernisation,Planned,Finance,2028-02-29
+Division C,DC-001,Finance Platform Renewal,In Delivery,Finance,2027-03-31
+Division C,DC-002,HR SaaS Adoption,In Delivery,People,2027-06-30
+Division C,DC-003,Digital Workplace Edge,Mobilising,Workplace Technology,2027-11-30
+Division C,DC-004,Operations Transformation,Planned,Operations,2028-04-30
