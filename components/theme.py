@@ -22,6 +22,23 @@ def apply_theme():
             border-right: 1px solid #E3E8EF;
         }
 
+        /*
+        Keep the Streamlit sidebar collapse control, but reduce the
+        vertical space reserved above the Group Architecture branding.
+        */
+        section[data-testid="stSidebar"] [data-testid="stSidebarHeader"] {
+            height: 2.5rem;
+            min-height: 2.5rem;
+        }
+
+        /*
+        Pull the sidebar content closer to the top while retaining
+        a small amount of breathing room.
+        */
+        section[data-testid="stSidebar"] [data-testid="stSidebarContent"] {
+            padding-top: 0.25rem;
+        }
+
         h1 {
             color: #0B1F3A;
             font-size: 2.5rem !important;

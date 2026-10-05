@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import streamlit as st
 
 from components.theme import (
@@ -25,6 +27,10 @@ from views.taxonomy_page import (
     render_page as render_taxonomy_page,
 )
 
+from views.ebcm_page import (
+    render_page as render_ebcm_page,
+)
+
 from views.exceptions_page import (
     render_page as render_exceptions_page,
 )
@@ -47,12 +53,25 @@ from views.commercial_renewals_page import (
 
 
 # ============================================================
+# PATHS
+# ============================================================
+
+BASE_DIR = Path(__file__).resolve().parent
+
+GA_CONTROL_CENTRE_ICON = (
+    BASE_DIR
+    / "assets"
+    / "ga_control_centre_sidebar.png"
+)
+
+
+# ============================================================
 # STREAMLIT CONFIGURATION
 # ============================================================
 
 st.set_page_config(
     page_title=APP_NAME,
-    page_icon="🧭",
+    page_icon=str(GA_CONTROL_CENTRE_ICON),
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -90,6 +109,7 @@ taxonomy_service = create_taxonomy_service()
 
 VALID_PAGES = [
     "STL Lookup",
+    "Business Capabilities",
     "Change Portfolios",
     "Commercial Renewals",
     "Governance Triage",
@@ -148,58 +168,20 @@ def set_page(
 
 with st.sidebar:
 
+    # --------------------------------------------------------
+    # GROUP ARCHITECTURE CONTROL CENTRE BRAND
+    # --------------------------------------------------------
+
+    st.image(
+        str(GA_CONTROL_CENTRE_ICON),
+        use_container_width=True,
+    )
+
     render_html(
         """
         <div style="
-            padding-top:14px;
-            padding-bottom:24px;
+            height:8px;
         ">
-
-            <div style="
-                display:flex;
-                align-items:center;
-                gap:11px;
-            ">
-
-                <div style="
-                    width:38px;
-                    height:38px;
-                    border-radius:10px;
-                    background:#EAF2FF;
-                    color:#1769D2;
-                    display:flex;
-                    align-items:center;
-                    justify-content:center;
-                    font-size:20px;
-                    font-weight:700;
-                ">
-                    ◈
-                </div>
-
-                <div>
-
-                    <div style="
-                        font-size:18px;
-                        line-height:1.15;
-                        font-weight:750;
-                        color:#0B1F3A;
-                    ">
-                        Architecture
-                    </div>
-
-                    <div style="
-                        font-size:18px;
-                        line-height:1.15;
-                        font-weight:750;
-                        color:#0B1F3A;
-                    ">
-                        Governance Navigator
-                    </div>
-
-                </div>
-
-            </div>
-
         </div>
         """
     )
@@ -237,6 +219,24 @@ with st.sidebar:
 
         set_page(
             "STL Lookup"
+        )
+
+        st.rerun()
+
+    if st.button(
+        "Business Capabilities",
+        use_container_width=True,
+        type=(
+            "primary"
+            if st.session_state.selected_page
+            == "Business Capabilities"
+            else "secondary"
+        ),
+        key="nav_business_capabilities",
+    ):
+
+        set_page(
+            "Business Capabilities"
         )
 
         st.rerun()
@@ -404,6 +404,14 @@ if (
     render_taxonomy_page(
         taxonomy_service
     )
+
+
+elif (
+    st.session_state.selected_page
+    == "Business Capabilities"
+):
+
+    render_ebcm_page()
 
 
 elif (

@@ -77,27 +77,16 @@ DEFINING_COLOUR = "#D9DEE7"
 
 
 LEVEL_1_STATUS = {
-
-    "Tax_L1": "approved",
-
-    "Tax_L2": "approved",
-
-    "Tax_L3": "approved",
-
-    "Tax_L4": "approved",
-
-    "Tax_L5": "approved",
-
-    "Tax_L6": "approved",
-
-    "Tax_L7": "defining",
-
-    "Tax_L8": "defining",
-
-    "Tax_L9": "defining",
-
-    "Tax_L10": "defining",
-
+    "Data & Analytics": "approved",
+    "AI": "approved",
+    "Security & Identity": "approved",
+    "Hosting & Connectivity": "approved",
+    "Operations and Observability": "approved",
+    "Channels": "approved",
+    "Client & Customer Management": "defining",
+    "Applications": "defining",
+    "Engineering Services": "defining",
+    "Integration and Orchestration": "defining",
 }
 
 
